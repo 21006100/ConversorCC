@@ -1,6 +1,20 @@
 #include <stdio.h>
 
-// Convertir de GTQ a 2 monedas
+// Conversor de monedas a elegir.
+Prerrequisitos:
+-VisualStudioCode
+-BuildTools
+-Github
+-Ejecutar el programa en el compilador.
+Menu Ejecutar, Ctrl+F10 en Windows,
+LINUX:
+Guardar el programa con .c.
+Usando el compilador gcc, compilar el programa: gcc -o mi_programa.c
+Ejecutar el archivo: mi_programa.c
+
+
+Convertir de GTQ a 2 monedas
+
 double convertirAMonedas(double cantidad, char aMoneda) {
     double cantidadConvertida = 0.0;
 
